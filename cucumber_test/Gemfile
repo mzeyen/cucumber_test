@@ -36,10 +36,13 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'rspec'
+  gem 'cucumber-rest-api'
   gem 'cucumber-rails'
   gem 'database_cleaner'
   gem 'mustache'
   gem 'json_select'
+  gem 'nokogiri'
+  gem 'launchy'
 end
 
 group :development do
